@@ -1,0 +1,327 @@
+.footer-container {
+    display: flex;
+
+    width: 100%;
+    height: 290px;
+    top: 2716px;
+    background-color: #000000;
+}
+
+.section-about {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.questions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.questions li {
+    list-style: none;
+    width: 221px;
+    height: 33%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button-footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.button-footer-container button {
+    width: 194px;
+    height: 40px;
+    top: 169px;
+    left: 78px;
+    border: 1px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.logos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 14.22px;
+}
+
+.pierce-container {
+    width: 100%;
+    height: 14.22px;
+    padding-left: 75px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pierce-container p {
+    width: 173.09px;
+    height: 15.16px;
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+}
+
+
+.group-1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 69.37px;
+    height: 14.22px;
+    margin-left: 10px;
+}
+
+
+.vtex-container {
+    width: 100%;
+    height: 14.22px;
+    padding-left: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.vtex-container img {
+    width: 51.09px;
+    height: 19.68px;
+    top: 243px;
+    left: 361.82px;
+    object-fit: contain;
+}
+
+.section-title {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title h4 {
+    width: 170px;
+    height: 38px;
+    text-align: center;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+
+.section-find-us {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-find-us-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 75px;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.title-find-us-container svg {
+    width: 16px;
+    height: 20px;
+    color: #FFFFFF;
+}
+
+.title-find-us-container p {
+    width: 93px;
+    height: 24px;
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.contact-data-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 75px;
+
+}
+
+.contact-data-container p {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.data-fiscal-logo-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 75px;
+}
+
+.data-fiscal-logo-container p {
+    width: 117px;
+    height: 15.16px;
+    top: 246px;
+    left: 1065px;
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.data-fiscal-logo-container img {
+    width: 29.46px;
+    height: 37.15px;
+    top: 235px;
+    left: 1377.44px;
+}
+
+@media (max-width:360px) {
+    .footer-container {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .section-about {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .questions {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px;
+    }
+    .questions li {
+
+        text-align: center;
+        margin: 4px 0px 4px 0px;
+    }
+
+
+    .section-title {
+        width: 100%;
+        position: absolute;
+        height: 90%;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .button-footer-container {
+        justify-content: center;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .pierce-container {
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    .section-find-us {
+        width: 360px;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .logos-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+    }
+
+    .vtex-container {
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    .section-find-us {
+        width: 100%;
+        justify-content: center;
+        padding-left: 0px;
+        align-items: center;
+    }
+
+    .title-find-us-container {
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    .contact-data-container {
+        justify-content: center;
+        padding-left: 0px;
+    
+    }
+    .data-fiscal-logo-container {
+        width: 100%;
+        padding-left: 0px;
+        justify-content: space-evenly;
+    }
+
+    .contact-data-container {
+        align-items: center;
+        padding-left: 0px;
+    
+    }
+    .contact-data-container p {
+        text-align: left;
+    }
+}

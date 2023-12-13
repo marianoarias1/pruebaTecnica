@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+.mas-vendidos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 566px;
+    margin-top: 130px;
+    gap: 40px;
+    background: #FFFFFF;
+}
+
+.title-mas-vendidas-container {
+    width: 86%;
+    height: 32px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.title-mas-vendidas-container h2 {
+    width: 295px;
+    height: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000000;
+
+}
+
+.products-container-mas-vendidos {
+    display: flex;
+    width: 90%;
+    height: 402px;
+    justify-content: space-between;
+}
+
+.card-product-mas-vendidos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 246px;
+    height: 402px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px 0px #CCCACA;
+}
+
+.image-prod-container-mas-vendidos {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-prod-container-mas-vendidos img {
+    width: 188px;
+    height: 188px;
+    top: 22px;
+    left: 29px;
+}
+
+.name-container-mas-vendidos {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-container-mas-vendidos p {
+    width: 212px;
+    height: 40px;
+    top: 232px;
+    left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #5E5E5E;
+}
+
+.price-container-mas-vendidos {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-container-mas-vendidos p {
+    width: 126px;
+    height: 28px;
+    top: 295px;
+    left: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #000000B8;
+}
+
+.button-container-mas-vendidos {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container-mas-vendidos button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 117px;
+    height: 33px;
+    top: 345px;
+    left: 65px;
+    border-radius: 20px;
+    border: 1px solid #DC1E0F;
+    background-color: transparent;
+    color: #DC1E0F;
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+
+
+.frame-79 {
+    position: absolute;
+    width: 92%;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-1240{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    top: 36px;
+    left: 36px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 20px 0px #80808040;
+}
+
+.group-1239{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    top: 36px;
+    left: 36px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 20px 0px #80808040;
+}
+.ellipse-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    top: 36px;
+    left: 36px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0px 4px 20px 0px #80808040;
+
+}
+
+.ellipse-products svg {
+    width: 10px;
+    height: 20px;
+    top: 28px;
+    left: 23px;
+
+}
+
+
+@media (max-width: 360px) {
+    .mas-vendidos-container {
+        width: 100%;
+        height: 395px;
+        margin-top: 80px;
+    }
+
+    .title-mas-vendidas-container{
+        align-items: center;
+        width: 90%;
+    }
+
+    .title-mas-vendidas-container h2 {
+        width: 230px;
+        height: 32px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .products-container-mas-vendidos {
+        display: flex;
+        width: 95%;
+        justify-content: space-between;
+        overflow-x: scroll;
+        gap: 8px;
+    }
+
+    .card-product-mas-vendidos {
+        width: 260px;
+        height: 250px;
+        border-radius: 15px;
+    }
+
+    .image-prod-container-mas-vendidos {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-prod-container-mas-vendidos img {
+        width: 99.35px;
+        height: 99.55px;
+        margin-top: 17px;
+        left: 30px;
+    }
+
+    .name-container-mas-vendidos {
+        width: 60%;
+    }
+
+    .name-container-mas-vendidos p {
+        width: 170px;
+        top: 132px;
+        left: 27px;
+        font-size: 12px;
+    }
+
+    .price-container-mas-vendidos {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .price-container-mas-vendidos p {
+        width: 66px;
+        height: 14px;
+        top: 183px;
+        left: 50px;
+        font-size: 12px;
+        line-height: 14.06px;
+    }
+
+
+    .button-container-mas-vendidos button {
+        width: 58px;
+        height: 18px;
+        font-size: 10px;
+        line-height: 12.5px;
+    }
+
+    .no-visible {
+        display: none;
+    }
+
+    .group-mas-vendidos {
+        width: 100%;
+        height: 9%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .ellipse-mas-vendidos {
+        border-radius: 50%;
+        width: 9px;
+        height: 9px;
+        border: 1.5px solid #DC1E0F
+    }
+
+    .filled-mas-vendidos {
+        background: #DC1E0F;
+
+    }
+}

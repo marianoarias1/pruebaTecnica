@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.categories-container {
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-categories-container {
+    width: 86%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title-categories-container h3 {
+    height: 32px;
+    top: 1274px;
+    left: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.categories-card {
+    width: 90%;
+    height: 90%;
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.c1 {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+.c2 {
+    grid-column: 2 / span 2;
+    grid-row: 1;
+}
+
+.c3 {
+    grid-column: 2 / span 2;
+    grid-row: 2;
+}
+
+.c4 {
+    grid-column: 4;
+    grid-row: 1 / span 2;
+}
+
+.zapatillas {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.zapatillas img {
+    width: 316.22px;
+    height: 399px;
+    top: 1330px;
+    left: 70px;
+}
+
+.zapatillas p {
+    position: absolute;
+    width: 241px;
+    height: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.futbol {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.futbol img {
+    width: 644.14px;
+    height: 193px;
+    top: 1330px;
+    left: 397.93px;
+}
+
+.futbol p {
+    position: absolute;
+    width: 155px;
+    height: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.calzas {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.calzas img {
+    width: 644.14px;
+    height: 193px;
+    top: 1330px;
+    left: 397.93px;
+}
+
+.calzas p {
+    position: absolute;
+    width: 157px;
+    height: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.pelotas {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.pelotas img {
+    width: 316.22px;
+    height: 399px;
+    top: 1330px;
+    left: 70px;
+}
+
+.pelotas p {
+    position: absolute;
+    width: 155px;
+    height: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.group-categories{
+    display: none;
+}
+
+
+@media (max-width:360px) {
+    .categories-container {
+        width: 100%;
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title-categories-container {
+        width: 100%;
+    }
+
+    .title-categories-container h3 {
+        width: 304.79px;
+        height: 56px;
+        font-size: 24px;
+        line-height: 28px;
+        margin-left: 15px;
+    }
+
+    .categories-card {
+        display: flex;
+        flex-direction: row;
+        width: 360px;
+        height: 229px;
+        justify-content: flex-start;
+        align-items: center;
+        overflow-x: scroll;
+    }
+
+    .box{
+        width: 360px;
+        height: 208px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .zapatillas {
+        position: sticky;
+        align-items: center;
+        justify-content: center;
+    }
+    .zapatillas img {
+        width: 360px;
+        height: 208px;
+        object-fit: cover;
+    }
+    
+    .zapatillas p {
+        height: 45px;
+        line-height: 45.03px;
+        text-align: center;
+
+    }
+    
+    .futbol {
+        position: sticky;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .futbol img {
+        width: 360px;
+        height: 208px;
+        object-fit: cover;
+    }
+    
+    .futbol p {
+        height: 45px;
+        line-height: 45.03px;
+        text-align: center;
+
+    }
+
+    .calzas {
+        position: sticky;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .calzas img {
+        width: 360px;
+        height: 208px;
+        object-fit: cover;
+    }
+    
+    .calzas p {
+        height: 45px;
+        line-height: 45.03px;
+        text-align: center;
+    }
+    
+    .pelotas {
+        position: sticky;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .pelotas img {
+        width: 360px;
+        height: 208px;
+        object-fit: cover;
+    }
+    
+    .pelotas p {
+        height: 45px;
+        line-height: 45.03px;
+        text-align: center;
+    }
+
+
+    .group-categories {
+        width: 100%;
+        height: 9%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .ellipse-categories {
+        border-radius: 50%;
+        width: 9px;
+        height: 9px;
+        border: 1.5px solid #000000;
+    }
+
+    .filled-categories {
+        background:#000000;
+    }
+
+}
