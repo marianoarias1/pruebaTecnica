@@ -1,6 +1,7 @@
 import React from 'react'
 import "./masVendidosStyles.css"
 import { products } from '../../products'
+import { ProductCard } from '../productCard/ProductCard'
 
 export const MasVendidos = () => {
   return (
@@ -14,20 +15,7 @@ export const MasVendidos = () => {
                 {
                     products.map((prod) => {
                         return (
-                            <div className='card-product-mas-vendidos' key={prod.id}>
-                                <div className="image-prod-container-mas-vendidos">
-                                    <img src={prod?.src} alt="" />
-                                </div>
-                                <div className='name-container-mas-vendidos'>
-                                    <p>{prod.name}</p>
-                                </div>
-                                <div className='price-container-mas-vendidos'>
-                                    <p>{prod.price}</p>
-                                </div>
-                                <div className='button-container-mas-vendidos'>
-                                    <button>Comprar</button>
-                                </div>
-                            </div>
+                            <ProductCard key={prod.id} prod={prod}/>
                         )
                     })
                 }

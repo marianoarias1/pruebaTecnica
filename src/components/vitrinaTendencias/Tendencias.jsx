@@ -1,6 +1,7 @@
 import React from 'react'
 import "./tendenticasStyles.css"
 import { products } from '../../products'
+import { ProductCard } from '../productCard/ProductCard'
 
 
 export const Tendencias = () => {
@@ -15,20 +16,7 @@ export const Tendencias = () => {
                 {
                     products.map((prod) => {
                         return (
-                            <div className='card-product' key={prod.id}>
-                                <div className="image-prod-container">
-                                    <img src={prod?.src} alt="" />
-                                </div>
-                                <div className='name-container'>
-                                    <p>{prod.name}</p>
-                                </div>
-                                <div className='price-container'>
-                                    <p>{prod.price}</p>
-                                </div>
-                                <div className='button-container'>
-                                    <button>Comprar</button>
-                                </div>
-                            </div>
+                            <ProductCard key={prod.id} prod={prod}/>
                         )
                     })
                 }

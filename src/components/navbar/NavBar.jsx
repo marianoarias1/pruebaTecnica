@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './navBarStyles.css'
 export const NavBar = () => {
     const [visible, setVisible] = useState('no-visible');

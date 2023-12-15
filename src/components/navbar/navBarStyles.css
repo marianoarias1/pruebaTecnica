@@ -242,23 +242,6 @@
     border: 1.5px;
 }
 
-.prueba2 {
-    position: absolute;
-    width: 17.92px;
-    margin-left: 1.2px;
-    height: 18.82px;
-    border: 1.5px;
-}
-
-.prueba {
-    width: 7.38px;
-    margin-left: 6.7px;
-    margin-top: 11.34px;
-    height: 7.48px;
-    border: 1.5px;
-}
-
-
 /* RESPONSIVE */
 
 @media (max-width: 360px) {
