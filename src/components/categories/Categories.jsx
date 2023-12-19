@@ -4,7 +4,7 @@ import "./categoriesStyles.css"
 
 export const Categories = () => {
     return (
-        <div className='categories-container'>
+        <section className='categories-container'>
             <div className='title-categories-container'>
                 <h3>
                     VISITÁ LA CATEGORÍAS MÁS POPULARES
@@ -46,6 +46,6 @@ export const Categories = () => {
                 <span className='ellipse-categories'></span>
                 <span className='ellipse-categories'></span>
             </div>
-        </div>
+        </section>
     )
 }

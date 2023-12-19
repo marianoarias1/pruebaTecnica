@@ -5,7 +5,7 @@ import { ProductCard } from '../productCard/ProductCard'
 
 export const MasVendidos = () => {
   return (
-    <div className='mas-vendidos-container'>
+    <main className='mas-vendidos-container'>
             <div className="title-mas-vendidas-container">
                 <h2> LOS MAS VENDIDOS </h2>
             </div>
@@ -46,6 +46,6 @@ export const MasVendidos = () => {
                     </span>
                 </div>
             </div>
-        </div>
+        </main>
   )
 }

@@ -6,8 +6,16 @@
     background-color: #000000;
 }
 
+.first-section{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
 .section-about {
-    width: 33%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -41,7 +49,7 @@
     justify-content: flex-start;
     align-items: center;
     padding-top: 40px;
-    padding-left: 80px;
+    padding-left: 78px;
 }
 
 .button-footer-container button {
@@ -74,7 +82,7 @@
 .pierce-container {
     width: 100%;
     height: 14.22px;
-    padding-left: 75px;
+    padding-left: 78px;
     margin-top: 40px;
     display: flex;
     justify-content: flex-start;
@@ -125,7 +133,7 @@
 }
 
 .section-title {
-    width: 33%;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -147,7 +155,7 @@
 
 
 .section-find-us {
-    width: 33%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -228,99 +236,124 @@
     left: 1377.44px;
 }
 
+.mobile-data{
+    display: none;
+}
+
 @media (max-width:360px) {
     .footer-container {
         height: 100%;
         flex-direction: column;
     }
 
+    .first-section{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logos-container{
+        display: none;
+    }
+
     .section-about {
         width: 100%;
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
     }
     .questions {
         width: 100%;
         justify-content: center;
         align-items: center;
         justify-content: center;
-        padding-left: 0px;
+        padding: 0px;
+    }
+    .questions ul{
+        margin: 0px;
+        padding: 0px;
     }
     .questions li {
-
         text-align: center;
         margin: 4px 0px 4px 0px;
-    }
-
-
-    .section-title {
-        width: 100%;
-        position: absolute;
-        height: 90%;
-        justify-content: center;
-        align-items: flex-start;
     }
 
     .button-footer-container {
         justify-content: center;
         padding-left: 0px;
-        padding-top: 0px;
-    }
-
-    .pierce-container {
-        justify-content: center;
-        padding-left: 0px;
     }
 
     .section-find-us {
-        width: 360px;
-        height: 100%;
-        justify-content: center;
+        display: none;
     }
 
-    .logos-container {
+    
+    .mobile-data{
+        display: flex;
+        width: 100%;
+        height: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 50px;
-        width: 100%;
     }
 
-    .vtex-container {
-        justify-content: center;
-        padding-left: 0px;
-    }
-
-    .section-find-us {
-        width: 100%;
+    .mobile-data .title-find-us-container {
         justify-content: center;
         padding-left: 0px;
         align-items: center;
-    }
-
-    .title-find-us-container {
-        justify-content: center;
-        padding-left: 0px;
+        margin: 30px 0px 30px 0px;
     }
 
     .contact-data-container {
         justify-content: center;
         padding-left: 0px;
-    
-    }
-    .data-fiscal-logo-container {
-        width: 100%;
-        padding-left: 0px;
-        justify-content: space-evenly;
-    }
-
-    .contact-data-container {
         align-items: center;
-        padding-left: 0px;
-    
     }
     .contact-data-container p {
         text-align: left;
+        margin: 0px;
+    }
+
+    .pierce-mobile{
+        display: flex;
+        width: 100%;
+        justify-content:center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 30px;
+    }
+
+    .pierce-mobile p{
+        width: 173.09px;
+        height: 15.16px;
+        font-family: Rubik;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+        color: #FFFFFF;
+    }
+
+
+    .vtex-container-mobile {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .vtex-container-mobile img:nth-child(1){
+        width: 28.25px;
+        height: 41.05px;
+    }
+
+    
+    .vtex-container-mobile img:nth-child(2){
+        width: 49px;
+        height: 21.75px;
+        object-fit: contain;
     }
 }

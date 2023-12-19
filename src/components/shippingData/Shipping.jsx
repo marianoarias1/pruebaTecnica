@@ -2,7 +2,7 @@ import React from 'react'
 import "./shippingStyles.css"
 export const Shipping = () => {
     return (
-        <div className='shipping-data-container'>
+        <section className='shipping-data-container'>
             <div className='item-1'>
                 <div className='image-container'>
                     <svg width="52" height="64" viewBox="0 0 52 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,6 +42,6 @@ export const Shipping = () => {
                     <small>Elegí la forma de entrega que prefieras ¡y listo! Aseguramos tu entrega con Mercado Envíos.</small>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

@@ -6,7 +6,7 @@ import { ProductCard } from '../productCard/ProductCard'
 
 export const Tendencias = () => {
     return (
-        <div className='tendencias-container'>
+        <section className='tendencias-container'>
             <div className="title-container">
                 <h2> TENDENCIAS </h2>
             </div>
@@ -47,6 +47,6 @@ export const Tendencias = () => {
                     </span>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
